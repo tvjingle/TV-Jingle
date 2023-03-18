@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TV Jingle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>TV Jingle</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Vidéos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="video-list">
+			<h2>Nos vidéos</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="video1.png" alt="Vidéo 1">
+						<h3>Vidéo 1</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="video2.png" alt="Vidéo 2">
+						<h3>Vidéo 2</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="video3.png" alt="Vidéo 3">
+						<h3>Vidéo 3</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="video-upload">
+			<h2>Upload de vidéo</h2>
+			<form>
+				<label for="titre">Titre :</label>
+				<input type="text" id="titre" name="titre">
+				<label for="description">Description :</label>
+				<textarea id="description" name="description"></textarea>
+				<label for="video">Fichier vidéo :</label>
+				<input type="file" id="video" name="video">
+				<input type="submit" value="Envoyer">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mon site d'hébergement de vidéos</p>
+	</footer>
+</body>
+</html>
